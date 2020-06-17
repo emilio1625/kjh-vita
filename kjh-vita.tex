@@ -74,6 +74,10 @@
 \date{} % not used (revision control instead)
 \def\mykeywords{Kieran, Healy, Kieran Healy, Vita, CV, Resume, Sociology}
 
+% colors
+\definecolor{ImperialBlue}{rgb}{0.082,0.416,0.608}
+\definecolor{ImperialLightBlue}{rgb}{0.545,0.682,0.8}
+
 %%%------------------------------------------------------------------------
 %%% Git version tracking
 %%%------------------------------------------------------------------------
@@ -97,7 +101,7 @@
 	Ligatures={Common}]{Minion Pro}
 \setsansfont[Mapping=tex-text,
 	Ligatures={Common},
-	Colour=AA0000]{Unit-Medium}
+	Colour=ImperialBlue]{Unit-Medium}
 \setmonofont[Mapping=tex-text,Scale=0.72]{Pragmata Pro}
 
 \newfontface\scheader[SmallCapsFont={Minion Pro},SmallCapsFeatures={Letters=SmallCaps}]{Minion Pro}
@@ -120,7 +124,7 @@
 
 
 %% [optional] custom ampersand (font consistent with the one chosen above)
-% \newcommand{\amper}{{\fontspec[Scale=.95,Colour=AA0000]{Minion Pro Medium}\selectfont\&\,}}
+\newcommand{\amper}{{\fontspec[Scale=.95,Colour=ImperialBlue]{Minion Pro Medium}\selectfont\&\,}}
 
 %% No bullets on labels
 \renewcommand{\labelitemi}{~}
